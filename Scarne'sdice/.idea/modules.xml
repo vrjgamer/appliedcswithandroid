@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Scarne'sdice.iml" filepath="$PROJECT_DIR$/Scarne'sdice.iml" />
+      <module fileurl="file://F:\Android\Applied CS With Android\Solutions\Scarne'sdice\Scarne'sdice.iml" filepath="F:\Android\Applied CS With Android\Solutions\Scarne'sdice\Scarne'sdice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://F:\Android\Applied CS With Android\Solutions\Scarne'sdice\app\app.iml" filepath="F:\Android\Applied CS With Android\Solutions\Scarne'sdice\app\app.iml" />
+    </modules>
+  </component>
+</project>
