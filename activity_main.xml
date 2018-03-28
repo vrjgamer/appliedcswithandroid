@@ -1,0 +1,81 @@
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingEnd="16dp"
+    android:paddingStart="16dp">
+
+    <TextView
+        android:id="@+id/user_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Your Score: 0"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/computer_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Computer Score: 0"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/game_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Status: "
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/dice_face"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="dice"
+        android:src="@drawable/dice1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"> 
+	
+
+
+
+	
+
+        <Button
+            android:id="@+id/roll_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="ROLL" />
+
+        <Button
+            android:id="@+id/hold_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="HOLD" />
+
+        <Button
+            android:id="@+id/reset_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="RESET" />
+
+    </LinearLayout>
+
+</LinearLayout>
